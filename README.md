@@ -8,8 +8,11 @@ The project was made as part as the Big Data Infastructure and Technologies cour
 - total precipitations (tp; ERA5 on single level);
 - agricultural land area (agr; The World Bank);
 - cereal yield (yld; The World Bank).
+
 **Target**:
 - gross domestic product (gdp; The World Bank).
+
+
 
 
 
