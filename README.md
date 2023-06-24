@@ -7,7 +7,7 @@ The project was made as part as the Big Data Infastructure and Technologies cour
 - 2 m air temperature (t2m; ERA5 on single level);
 - total precipitations (tp; ERA5 on single level);
 - agricultural land area (agr; The World Bank);
-- cereal yield (yld; The World Bank);
+- cereal yield (yld; The World Bank).
 **Target**:
 - gross domestic product (gdp; The World Bank).
 
