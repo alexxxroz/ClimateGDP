@@ -13,14 +13,14 @@ The project was made as part as the Big Data Infastructure and Technologies cour
 **Target**:
 - gross domestic product (gdp; The World Bank).
 
-**1st Stage**
+**1st Stage.**
 According to a list of European countries all names were unified to one notation before data agreggation. Aftewards, the economy data were processed with drop out of states with NAN values.
 To gather climate data with spatial resolution of 0.25° it was necessary to slice the data accroding to the official borders (*.shp* comprises this information) and average hourly data over years with following aggregation.
 
-**2d Statge**
+**2d Statge.**
 On this stage a k-means clustering was applied to split the countries on some groups (it was decided to have 3 groups). Then heatmaps, lineplots and scatterpots were created to investigate the collected data.
 
-**3d Stage**
+**3d Stage.**
 To prove that meteorological data have an impact on GDP two datasets were obtained. Finally, XGBoost and RF models were built and trained with flollowing evaluation (R^2). For the best model (XGBoost) a sensetivity analysis was applied to see how the std of meteo variables can change the output of the model using Monte-Carlo technique.
 
 **Conclusions:**
